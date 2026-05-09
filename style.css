@@ -256,6 +256,68 @@ h2{
   margin:8px 0 10px;
 }
 
+.card-grid{
+  display:grid;
+  gap:24px;
+}
+
+.card-grid.three{
+  grid-template-columns:repeat(3,1fr);
+}
+
+.info-card{
+  background:#12151a;
+  border:1px solid #2a2e36;
+  color:#f2f2f2;
+  padding:28px;
+  min-height:280px;
+  position:relative;
+  overflow:hidden;
+}
+
+.info-card h3{
+  color:#ffffff;
+}
+
+.info-card p{
+  color:#9aa3ad;
+  line-height:1.7;
+}
+
+.card-kicker{
+  color:#caa85a;
+  font-size:12px;
+  letter-spacing:0.18em;
+  text-transform:uppercase;
+  font-weight:700;
+  display:inline-block;
+  margin-bottom:14px;
+}
+
+.card-icon{
+  position:absolute;
+  right:18px;
+  bottom:18px;
+  font-size:48px;
+  opacity:0.18;
+}
+
+.tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:18px;
+}
+
+.tags span{
+  border:1px solid #3a3f48;
+  background:transparent;
+  color:#d5dbe3;
+  padding:6px 10px;
+  border-radius:2px;
+  font-size:13px;
+}
+
 .tags{
   display:flex;
   flex-wrap:wrap;
